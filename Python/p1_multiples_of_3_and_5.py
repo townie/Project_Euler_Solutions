@@ -20,4 +20,5 @@ def sum_of_multiples(incl_range=[0,1,2,3], multiples=[3,5]):
 if sum_of_multiples(range(1,10),[3,5]) == 23:
     print "success"
 
+print "Answer is:"
 print sum_of_multiples(range(1,1000),[3,5])
